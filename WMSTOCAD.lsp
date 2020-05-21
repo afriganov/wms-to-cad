@@ -12,7 +12,7 @@
     (command "_.delay" 1000)
 )
 (vlax-release-object Shell)
-(setq slikapath (strcat "c:\\lispovska\\" (rtos(car a)) "-EPSG3765.tiff"))Odaberite donju lijevu tocku
+(setq slikapath (strcat "c:\\lispovska\\" (rtos(car a)) "-EPSG3765.tiff"))
 (setq infile (open "c:\\lispovska\\koordinataizlaz.txt" "r"))
 (setq x (read-line infile))
 (setq y (read-line infile))
