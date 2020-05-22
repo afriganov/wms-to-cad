@@ -11,4 +11,5 @@ Python script is then initialized from CAD which takes those inputs, transforms 
 
 Image comes back in 3857, then gets transformed to 3765 using gdal. Python code also outputs world-like file to go with the transformed raster which is then loaded into CAD in the last part of the lisp.
 
+*python code must be compiled into standalone executable
 
