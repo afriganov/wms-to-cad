@@ -9,6 +9,6 @@ When you initialize AutoLisp code from CAD software it prompts user for 2 points
 
 Python script is then initialized from CAD which takes those inputs, transforms input coordinates to desired CRS(in this case 3857) and requests image from WMS.
 
-Image comes back in 3857, then gets transformed to 3765 using gdal. Python code also outputs world file to go with the transformed raster which is then loaded into CAD in the last part of the lisp.
+Image comes back in 3857, then gets transformed to 3765 using gdal. Python code also outputs world-like file to go with the transformed raster which is then loaded into CAD in the last part of the lisp.
 
 
