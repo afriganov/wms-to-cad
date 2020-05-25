@@ -7,7 +7,7 @@
 		(write-line (strcat(rtos(car a))"|"(rtos(cadr a))"|"(rtos(car b))"|"(rtos(cadr b))"|"(rtos kvaliteta)) fajl)
 	(close fajl)
 (setq Shell (vlax-get-or-create-object "Wscript.Shell"))            
-(setq updater(vlax-invoke-method Shell 'Exec "c:\\lispovska\\slikadron.exe"))
+(setq updater(vlax-invoke-method Shell 'Exec "c:\\lispovska\\wtc.exe"))
 (while ( = (vlax-get-property updater 'Status ) 0)  
     (command "_.delay" 1000)
 )
