@@ -1,7 +1,7 @@
 # wtc
 WMS to CAD
 
-Routine for importing georefed img to CAD software from WMS service. Most of WMS are in EPGS:3857 and this routine output is hardcoded to EPGS:3765, but that can be easily changed to any other desired CRS.
+Most of WMS are in EPGS:3857 and this routine output is hardcoded to EPGS:3765, but that can be easily changed to any other desired CRS.
 
 Routine works in a few steps:
 
